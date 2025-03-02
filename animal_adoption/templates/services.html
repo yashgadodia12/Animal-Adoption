@@ -1,0 +1,424 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Petspatial Animals & Pets Category Bootstrap Responsive Web Template | Services :: W3Layouts </title>
+  <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style-starter.css') }}">
+</head>
+
+<body>
+  <header id="site-header" class="fixed-top">
+    <section class="w3l-header-4">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <h1> <a class="navbar-brand" href="/index">
+              Pet<span class="sublog">spatial.</span>
+            </a></h1>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa icon-expand fa-bars"></span>
+            <span class="fa icon-close fa-times"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/services">Services</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav search-right mt-lg-0 mt-2">
+              <li class="nav-item mr-2" title="Search"><a href="#search" class="btn search-search">
+                  <span class="fa fa-search" aria-hidden="true"></span></a></li>
+              <li class="nav-item mx-xl-4"><a href="tel:+(12)234-11-24"
+                  class="btn btn-primary btn-white d-none d-lg-block btn-style mr-xl-3 phone-btn"><span
+                    class="fa fa-phone mr-3" aria-hidden="true"></span> (32)234-14-94</a></li>
+            </ul>
+
+            <!-- //toggle switch for light and dark theme -->
+            <!-- search popup -->
+            <div id="search" class="pop-overlay">
+              <div class="popup">
+                <form action="/searchpet" method="post" class="d-sm-flex">
+                  <input type="search" name="searchpet" placeholder="Search.." name="search" required="required"
+                    autofocus>
+                  <button type="submit"><span class="fa fa-search"></span></button>
+                  <a class="close" href="#">&times;</a>
+                </form>
+              </div>
+            </div>
+            <!-- /search popup -->
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <!--//header-->
+  <!--/inner-page-->
+
+  <div class="inner-banner">
+  </div>
+  <section class="w3l-breadcrumb">
+    <div class="container">
+      <ul class="breadcrumbs-custom-path">
+        <li><a href="/index">Home</a></li>
+        <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Services</li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <!-- team1 -->
+  <section class="w3l-team py-5" id="w3l-team">
+    <div class="container py-lg-4 py-sm-3">
+      <div class="row text-center" id="myUL">
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[0]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[0]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[0]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[1]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[1]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[1]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img[2]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[2]}}</a></h5>
+              <a href="/single?productname={{nam[2]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[3]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[3]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[3]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team1 -->
+
+  <!-- team2 -->
+  <section class="w3l-team py-5" id="w3l-team">
+    <div class="container py-lg-4 py-sm-3">
+      <div class="row text-center">
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img[4]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[4]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[4]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[5]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[5]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[5]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[6]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[6]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[6]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img[7]}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam[7]}}</a></h5>
+              <br>
+              <a href="/single?productname={{nam[7]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team2 -->
+
+  <!-- team3 -->
+  <section class="w3l-team py-5" id="w3l-team">
+    <div class="container py-lg-4 py-sm-3">
+      <div class="row text-center">
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img1[0]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[0]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[0]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img1[1]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[1]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[1]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img1[2]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[2]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[2]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px; ">
+            <img class="card-img-top" src="{{img1[3]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[3]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[3]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team3 -->
+
+  <!-- team4 -->
+  <section class="w3l-team py-5" id="w3l-team">
+    <div class="container py-lg-4 py-sm-3">
+      <div class="row text-center">
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img1[5]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[5]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[5]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img1[6]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[6]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[6]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img1[7]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[7]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[7]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 mt-5">
+          <div class="card" style="width: 18rem; height: 350px;">
+            <img class="card-img-top" src="{{img1[8]}}" height="200px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><a>{{nam1[8]}}</a></h5>
+              <br>
+              <a href="/single2?productname={{nam1[8]}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team4 -->
+
+  <!-- footer -->
+  <footer class="w3l-footer-29-main">
+    <div class="footer-29-w3l py-5">
+      <div class="container py-lg-4">
+        <div class="row footer-top-29">
+          <div class="col-lg-4 col-md-6  footer-list-29 footer-1 pr-lg-5">
+            <div class="footer-logo mb-3">
+              <a class="footer-brand-logo" href="/index">Pet<span class="sublog">spatial.</span></a>
+
+            </div>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+              tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+            <div class="main-social-footer-29 mt-4">
+              <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+              <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+              <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+              <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+            <h6 class="footer-title-29">Subscribe Newsletter
+            </h6>
+            <form action="#" method="post" class="forms-25-info mt-4 mb-2">
+              <div class="forms-gds">
+                <input type="email" name="" placeholder="Enter your email" required="">
+                <button class="btn btn-style btn-primary">Subscribe</button>
+              </div>
+              <p class="mt-4 text-left">By submitting this form, you agree to the <a href="#">privacy policy</a>
+                and <a href="#">terms of use</a></p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+            <h6 class="footer-title-29">Instagram
+            </h6>
+            <ul class="w3linst-imgs row">
+              <li class="col-4"><a href="#"><img src="../static/images/b1.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4"><a href="#"><img src="../static/images/b2.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4"><a href="#"><img src="../static/images/b3.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="../static/images/b4.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="../static/images/b5.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="../static/images/b6.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //footer -->
+    <!-- copyright -->
+    <section class="w3l-copyright">
+      <div class="container">
+        <div class="row bottom-copies">
+          <p class="col-lg-8 copy-footer-29">© 2022 Petspatial. All rights reserved. Design by</p>
+
+          <div class="col-lg-4 footer-list-29">
+            <ul class="d-flex text-lg-right">
+              <li><a href="#careers"> Careers</a></li>
+              <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+              <li><a href="/contact">Contact us</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      &#10548;
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </footer>
+  <!-- //copyright -->
+  <!-- Template JavaScript -->
+  <script src="{{ url_for('static',filename='js/jquery-3.3.1.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='js/theme-change.js') }}"></script>
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+  <!--//MENU-JS-->
+
+  <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+
+</body>
+
+</html>
